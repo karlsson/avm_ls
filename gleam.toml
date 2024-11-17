@@ -1,0 +1,16 @@
+name = "avm_ls"
+version = "0.10.0"
+gleam = ">= 0.32.0"
+licences = ["Apache-2.0"]
+description = "AtomVM LED Strip application"
+
+[dependencies]
+gleam_stdlib = ">= 0.34.0 and < 2.0.0"
+
+[dev-dependencies]
+# gleeunit = ">= 1.0.0 and < 2.0.0"
+
+[documentation]
+pages = [
+  # { title = "Gleam docs", path = "doc/gleam.html", source = "gleam.md" },
+]
